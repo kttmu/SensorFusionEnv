@@ -19,7 +19,7 @@
 - associators/：データアソシエーションアルゴリズム
 - config/：設定ファイル
 - sensors/：センサデータの処理
-- trackers/：追跡アルゴリズム
+- trackers/：追跡アルゴリズム。KF/EKFから適切なものを選択
 - utils/：ユーティリティ関数
 - DataLoader.py：データローダースクリプト
 - README.md：このREADMEファイル
@@ -27,10 +27,8 @@
 必要なパッケージはrequirements.txtに記載予定です。以下のコマンドでインストールしてください：
 ---
 ## 依存パッケージ
-作成予定です。
 ```
 pip install -r requirements.txt
 ```
 ---
-# 使い方
-各モジュールの使用方法やサンプルコードは、準備が整い次第提供いたします。
+
